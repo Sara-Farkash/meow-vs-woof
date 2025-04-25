@@ -3,7 +3,7 @@ import shutil
 import random
 
 # מיקום התמונות המקוריות
-original_dataset_dir = "D:\machine learning cats\Asirra_ cat vs dogs"  # <-- תשני לנתיב שלך
+original_dataset_dir = ""  # <-- your path
 
 # מיקום בסיסי לנתונים החדשים
 base_dir = "data"
