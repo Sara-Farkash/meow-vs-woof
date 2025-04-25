@@ -31,6 +31,30 @@ This project is a beginner-friendly deep learning classifier that distinguishes 
 ```bash
 pip install -r requirements.txt
 
+## 🐱🐶 Dataset Setup
+
+Due to dataset size, the image files are not included in this repository.
+
+### 🔽 To use the project:
+1. Download the **Asirra Cats vs Dogs** dataset (or your own cat/dog image dataset).
+2. Place the images in a folder named:
+> 📁 The folder should contain images in `.jpg` or `.png` format.  
+> You can use any folder name you prefer — just make sure to update the path in the script.
+
+3. Run `data_distribution.py` to split the data into training and validation folders.
+
+## 📁 Directory Structure (example)
+
+project/ │
+├── Asirra_ cat vs dogs/ # <- Your raw image dataset
+  ├── train/
+     │├── cats/
+     |└── dogs/
+  ├── val/
+     |├── cats/
+     │└── dogs/
+├── catdog_classifier_train.py └── ...
+
 
 Train the model:
 python catdog_classifier_train.py
